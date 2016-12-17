@@ -1,10 +1,7 @@
 #include <TimerOne.h>
-#include <LiquidCrystal_I2C.h>
-#include <Wire.h>
+#include <LiquidCrystal_I2C.h
 
-
-LiquidCrystal_I2C lcd (0x27, 16, 2);
-
+LiquidCrystal lcd (12,11,5,4,3,2)
 int horas=0;
 int minutos=0;
 volatile int segundos=0;
